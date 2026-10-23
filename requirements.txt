@@ -1,0 +1,7 @@
+# AudioClean Hot — Apex V3: dependências do frontend Python (versões validadas nesta máquina entre parênteses)
+customtkinter>=5.2      # GUI (6.0.0)
+numpy>=1.26             # (2.5.4)
+soundfile>=0.12         # libsndfile LGPL 2.1 (0.14.0)
+opencv-python>=4.8      # fallback de vídeo sem ffmpeg; Apache 2.0, traz ffmpeg LGPL (5.0.0)
+faster-whisper>=1.1     # detecção de fala por IA (Whisper/CTranslate2, MIT); baixa o modelo na 1ª vez (1.2.1)
+# Externos (no PATH ou ao lado do executável): ffmpeg e ffprobe — veja "Licenciamento" no CLAUDE.md.
